@@ -1,7 +1,9 @@
 LICENSE
 MANIFEST.in
 README.md
+main.py
 pyproject.toml
+requirements.txt
 setup.py
 data/src_data/roles.json
 data/src_data/users.json
@@ -9,6 +11,8 @@ data/target_data/combined_users_role_list.json
 data/target_data/updated_roles_list.json
 data/target_data/updated_users_list.json
 data/target_data/users_ent.json
+dist/user-role-mgmt-pkg-deputy-0.0.1.tar.gz
+dist/user_role_mgmt_pkg_deputy-0.0.1-py3-none-any.whl
 user_role_mgmt/__init__.py
 user_role_mgmt/accounts.py
 user_role_mgmt/configuration.py
