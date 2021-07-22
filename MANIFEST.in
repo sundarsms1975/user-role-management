@@ -1,0 +1,8 @@
+include setup.py
+include MANIFEST.in
+include LICENSE
+include README.md
+
+graft tests
+graft data
+graft user_role_mgmt

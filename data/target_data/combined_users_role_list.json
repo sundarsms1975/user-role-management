@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "Name": "Adam Admin",
+    "Role": 1,
+    "role_name": "System Administrator",
+    "parent_id": 0
+  },
+  {
+    "Id": 2,
+    "Name": "Emily Employee",
+    "Role": 4,
+    "role_name": "Employee",
+    "parent_id": 3
+  },
+  {
+    "Id": 3,
+    "Name": "Sam Supervisor",
+    "Role": 3,
+    "role_name": "Supervisor",
+    "parent_id": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Mary Manager",
+    "Role": 2,
+    "role_name": "Location Manager",
+    "parent_id": 1
+  },
+  {
+    "Id": 5,
+    "Name": "Steve Trainer",
+    "Role": 5,
+    "role_name": "Trainer",
+    "parent_id": 3
+  },
+  {
+    "Id": 6,
+    "Name": "Ian Moran",
+    "Role": 3,
+    "role_name": "Supervisor",
+    "parent_id": 2
+  },
+  {
+    "Id": 7,
+    "Name": "Sundar SM",
+    "Role": 4,
+    "role_name": "Employee",
+    "parent_id": 3
+  },
+  {
+    "Id": 8,
+    "Name": "Hamish",
+    "Role": 7,
+    "role_name": "Technical Architect",
+    "parent_id": 3
+  },
+  {
+    "Id": 9,
+    "Name": "Michiel Marsdan",
+    "Role": 7,
+    "role_name": "Technical Architect",
+    "parent_id": 3
+  },
+  {
+    "Id": 10,
+    "Name": "Siddharth Sundar",
+    "Role": 8,
+    "role_name": "Tech Lead",
+    "parent_id": 5
+  },
+  {
+    "Id": 11,
+    "Name": "Michal",
+    "Role": 8,
+    "role_name": "Tech Lead",
+    "parent_id": 5
+  }
+]

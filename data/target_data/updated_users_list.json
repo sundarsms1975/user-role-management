@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Name": "Adam Admin",
+    "Role": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Emily Employee",
+    "Role": 4
+  },
+  {
+    "Id": 3,
+    "Name": "Sam Supervisor",
+    "Role": 3
+  },
+  {
+    "Id": 4,
+    "Name": "Mary Manager",
+    "Role": 2
+  },
+  {
+    "Id": 5,
+    "Name": "Steve Trainer",
+    "Role": 5
+  },
+  {
+    "Id": 6,
+    "Name": "Ian Moran",
+    "Role": 3
+  },
+  {
+    "Id": 7,
+    "Name": "Sundar SM",
+    "Role": 4
+  },
+  {
+    "Id": 8,
+    "Name": "Hamish",
+    "Role": 7
+  },
+  {
+    "Id": 9,
+    "Name": "Michiel Marsdan",
+    "Role": 7
+  }
+]

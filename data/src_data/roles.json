@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "Name": "System Administrator",
+    "Parent": 0
+  },
+  {
+    "Id": 2,
+    "Name": "Location Manager",
+    "Parent": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Supervisor",
+    "Parent": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Employee",
+    "Parent": 3
+  },
+  {
+    "Id": 5,
+    "Name": "Trainer",
+    "Parent": 3
+  },
+  {
+    "Id": 6,
+    "Name": "Operators",
+    "Parent": 4
+  },
+  {
+    "Id": 7,
+    "Name": "Technical Architect",
+    "Parent": 3
+  },
+  {
+    "Id": 8,
+    "Name": "Tech Lead",
+    "Parent": 5
+  },
+  {
+    "Id": 9,
+    "Name": "Marketing Lead",
+    "Parent": 4
+  },
+  {
+    "Id": 10,
+    "Name": "Tele Marketing",
+    "Parent": 9
+  }
+]
