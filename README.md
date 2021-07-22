@@ -23,7 +23,10 @@ The input are treated DB files to capture changes made to User adn Role definiti
 
 Installation
 =============
-This utility is built on python version 3.6 in-built packages, it just needs a python module called "ast", which cleans up JSON file or JSON String.
+This utility is built on python version 3.6 in-built packages, it just needs a python module called "ast", which cleans up JSON file or JSON String. 
+
+Note :
+       This tool will not work properly in python 2.7. 
 
 1. Set a base directory under any drive or filesystem path
 
@@ -64,9 +67,55 @@ To install ast python package
 -----------------------------
 python3 -m pip install -r requirements.txt
 
-4. To Start this utility
+4. Input files for User and Roles should be dropped under "data/src_data" direcrory of project base directory
+
+    File Name Convension:
+    ---------------------
+             As this utility provides database like capability, the file should match be the same as mentioned.
+            
+              Data             FileName                    Format          
+              ---------        --------                    ------
+              User List        users.json                   JSON
+              Role List        roles.json                   JSON
+
+   Sample Data Format
+   ==================
+              users.json
+              -----------
+              [
+                {
+                   "Id": 1,
+                   "Name": "Adam Admin",
+                   "Role": 1
+                },
+                {
+                    "Id": 2,
+                    "Name": "Emily Employee",
+                    "Role": 4
+                }
+              ]
+
+             roles.json
+             ----------
+             [
+               {
+                  "Id": 1,
+                  "Name": "Adam Admin",
+                  "Role": 1
+                },
+               {
+                  "Id": 2,
+                  "Name": "Emily Employee",
+                  "Role": 4
+              }
+             ]
+
+          
+
+5. To Start this utility
 
  $ python3 main.py
+
  Choose the operation you would like to perform on User & Role List
                 1. Load User List from INPUT file 
                 2. Load Role List from INPUT file 
@@ -84,8 +133,8 @@ python3 -m pip install -r requirements.txt
 Enter choice(1-6) : 
 
 
-Usage
-=====
+6. Usage
+========
 This utility is menu driven program. These menu items are almost self-explanatory. 
 
 To use this utility
@@ -158,5 +207,7 @@ Programming Features Applied
 5. Avoid abbreviations as much as possible.
 
 6. Used simple functions and argument passig approach, which avoids confusions.
+
+7. Fully configuration based except input files should be dropped at the specified location
 
 
