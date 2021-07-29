@@ -17,8 +17,11 @@ user_role_mgmt/__init__.py
 user_role_mgmt/accounts.py
 user_role_mgmt/configuration.py
 user_role_mgmt/operations.py
+user_role_mgmt/__pycache__/accounts.cpython-37.pyc
 user_role_mgmt/__pycache__/accounts.cpython-39.pyc
+user_role_mgmt/__pycache__/configuration.cpython-37.pyc
 user_role_mgmt/__pycache__/configuration.cpython-39.pyc
+user_role_mgmt/__pycache__/operations.cpython-37.pyc
 user_role_mgmt/__pycache__/operations.cpython-39.pyc
 user_role_mgmt/user_role_mgmt_pkg_deputy.egg-info/PKG-INFO
 user_role_mgmt/user_role_mgmt_pkg_deputy.egg-info/SOURCES.txt
