@@ -35,7 +35,7 @@ def main():
     while(True):
         clear()
         choice_list()
-        get_choise = input("Enter choice(1-6) : ")
+        get_choise = input("Enter choice(1-14) : ")
         if get_choise == '1':
             dispResult(role_list)
             hitContine()

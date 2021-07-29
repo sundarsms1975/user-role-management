@@ -130,7 +130,7 @@ python3 -m pip install -r requirements.txt
                11. Show Users belongs to a Parent_ID
                12. Show Roles belongs to a Particular Parent_ID
                14. Exit 
-Enter choice(1-6) : 
+Enter choice(1-14) : 
 
 
 6. Usage
@@ -154,7 +154,7 @@ To use this utility
                12. Show Roles belongs to a Particular Parent_ID
                14. Exit 
 
-Enter choice(1-6) : 3
+Enter choice(1-14) : 3
 Enter Role_ID to get subordinates defined under Role ID : 5
 
 Subordinates who are defined under Role ID = 5
@@ -190,7 +190,7 @@ Hit Enter to continue
 Additional Notes
 ================
 
-This utility is built the following industry programming best practices applied.
+This utility is built based on the following industry programming best practices.
 
 Programming Features Applied
 ----------------------------
@@ -202,9 +202,9 @@ Programming Features Applied
 
 3. Avoided unnecessary variables, which consumes memory and becomes inefficient
 
-4. Detailed comments, however comments are the section in most programming code base never touched once deployed or code base increased, therefore used a minimal comments with full name used for variables and functions, so it does not required very detailed comments
+4. Detailed comments, however comments are the section in most programming code base never touched once deployed or code base increased, therefore used a minimal comments with full name used for variables and functions, so it does not require a very detailed comments
 
-5. Avoid abbreviations as much as possible.
+5. Avoided abbreviations as much as possible.
 
 6. Used simple functions and argument passig approach, which avoids confusions.
 
